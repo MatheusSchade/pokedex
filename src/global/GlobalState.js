@@ -40,24 +40,6 @@ export const GlobalState = (props) => {
 
     useEffect(() => {
         getList()
-        // const newList = []
-        // pokemonNames.forEach((item) => {
-        //     axios.get(item.url)
-        //         .then((response) => {
-        //             newList.push(response.data)
-        //             if (newList.length === 151) {
-        //                 const orderedList = newList.sort((a, b) => {
-        //                     return a.id - b.id
-        //                 })
-        //                 setPokemon(orderedList)
-        //             }
-
-        //         })
-        //         .catch((error) => {
-        //             console.log(`DEU ERRO ::: `, error)
-        //         })
-
-        // })
     }, [pokemonNames])
 
     const getPokemmonNames = () => {

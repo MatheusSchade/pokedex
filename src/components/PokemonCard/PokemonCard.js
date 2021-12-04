@@ -48,7 +48,7 @@ const PokemonCard = ({ pokemon, isPokedex }) => { //ao invés de colocar (props)
                     onClick={isPokedex ? removeFromPokedex : addToPokedex}>
                     {isPokedex ? "Remover da Pokedex" : "Adicionar à Pokedex"}
                 </LeftButton>
-                <RightButton onClick={() => goToPokemonDetail(history, pokemon.name)}>Ver detalhes</RightButton>
+                <RightButton onClick={() => goToPokemonDetail(history, pokemon.name)}>Detalhes</RightButton>
             </ContainerButtons>
         </Card>
     )
