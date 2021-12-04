@@ -5,6 +5,7 @@ import { GridCard } from "./styled";
 import { useHistory } from "react-router-dom"
 import PokemonCard from "../../components/PokemonCard/PokemonCard"
 import { GlobalStateContext } from "../../global/GlobalStateContext";
+import Loading from "../../components/Loading/Loading"
 
 const PokedexScreen = () => {
     const history = useHistory()

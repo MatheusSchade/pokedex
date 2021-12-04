@@ -96,7 +96,6 @@ const PokemonDetailScreen = () => {
 
                     </Infos>
 
-
                 </CenterBar>
 
                 <RigthBar>
