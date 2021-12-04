@@ -1,6 +1,6 @@
 # Essa é a Pokedex
 
-## Link do projeto para visualizar o resultado: [Pokedex](https://alcoholic-wrench.surge.sh/)
+## Link do projeto para visualizar o resultado: [Pokedex](https://steady-grain.surge.sh/)
 
 Esse projeto foi desenvolvido com base na API da [Pokeapi](https://pokeapi.co/), e busca trazer informações sobre os pokemons da primeira geração. Algumas funcionalidades do Pokedex:
 
@@ -22,7 +22,7 @@ Esse projeto foi desevolvido para Desktop, porém também é Mobile Responsive p
 
 ### Algumas funcionalidades que serão adicionadas em breve:
 
-* Filtrar por nome, tipo, etc;
+* Filtrar por tipo de Pokemon;
 * Adicionar funções como visualizar informações sobre tipo do pokemon, moves, abilities, etc;
 * Responsividade para mais dispositivos móveis;
 
